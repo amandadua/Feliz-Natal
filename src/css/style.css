@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Seletor Universal - Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    /* 100vh significa - Ocupar 100% da ViewHeigh (ViewHeigh: Altura da tela do dispositivo) */
+    height: 100vh;
+    font-family: 'Archivo', Arial, Helvetica, sans-serif;
+}
+
+/* Ajuste para que as imagens não passem da largura máxima de 100% 
+em relação aos elementos(tags) que as englobam.
+*/
+.img {
+    max-width: 100%;
+}
+
+header {
+    /* Ocupe 100% do seu espaço disponível */
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9E8;
+    padding: 3.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.6rem;
+}
+
+.sobre__doacao {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.feliz__natal {
+    display: flex;
+    align-items: center;
+    /* Espaço ENTRE os elementos */
+    gap: 1.2rem; 
+    /* Espaço EXTERNO localizado ABAIXO do elemento */
+    /* margin-bottom: 3.2rem; */
+}
+
+.feliz__natal p {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+h1, h3 {
+    font-size: 4.0rem;
+    /* LARGURA */
+    width: 56rem;
+    line-height: 120%;
+}
+
+p {
+    /* Altura ENTRE as linhas */
+    line-height: 150%;
+}
+
+span {
+    /* COR DA FONTE */
+    color: #CD3C32;
+}
+
+.sobre__doacao p {
+    font-size: 1.8rem;
+    width: 46.0rem;
+}
+
+.btn__doar {
+    width: 23.8rem;
+    height: 4.9rem;
+    margin-top: 4.0rem;
+    background-color: #CD3C32;
+    color: #FFFFFF;
+    /* Controla a capitalização das letras */
+    text-transform: uppercase;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+main,
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8.0rem;
+    padding-bottom: 8.0rem;
+    margin-bottom: 4.0rem;
+}
+
+.conteudo__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.0rem;
+    text-align: center;
+}
+
+.conteudo__principal h3 {
+    font-size: 4.0rem;
+}
+
+.conteudo__principal p {
+    font-size: 2.0rem;
+    width: 47.7rem;
+}
+
+.conteudo__principal h2 {
+    font-size: 6.4rem;
+    color: #CD3C32;
+}
+
+.container__section {
+    display: flex;
+    gap: 20rem;
+}
+
+.fazer__doacao {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.fazer__doacao h3 {
+    font-size: 4.0rem;
+    width: 48.8rem;
+}
+
+.fazer__doacao p {
+    font-size: 2.4rem;
+    width: 60.2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFE9E8;
+    height: 8.0rem;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.redes__sociais {
+    display: flex;
+    gap: 3.6rem; 
+}
+
+.redes__sociais button {
+    background-color: #FFD5D3;
+    border-radius: 50%;
+    width: 4.0rem;
+    height: 4.0rem;
+    border: none;
+    justify-content: center;
+}
